@@ -1,0 +1,42 @@
+# 依赖
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+
+# 数据库（本地数据不上传）
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+ftp_storage/
+
+# 构建产物
+frontend/dist/
+
+# Windows 路径垃圾
+C:/
+
+# 工具目录
+.workbuddy/
+.workspace/
+
+# 环境
+.env
+.venv/
+venv/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+logs/
